@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body background="Imagen/car.jpg">
+
+    <div id="principaldiv">
+            <header>
+                    <img src="Imagen/logoexa.png" id="imagen2">
+                   <div id="divtitle"><h1>Sistemas de Ventas - Exa01</h1></div> 
+                   <hr>
+               </header>
+                 <ul>
+                    <li><a onclick="inicio()">Inicio</a></li>
+                    <li><a onclick="ventas()">Ventas</a></li>
+                    <li><a onclick="reporte()">Reportes</a></li>
+                    <li><a onclick="cliente()">Clientes</a></li>
+                    <li><a onclick="producto()">Productos</a></li>
+                </ul>
+                        <div id="idinicio" >
+                        <h1 id="h1div">Bienvenido al Sistema de Ventas</h1>
+                        </div>
+                        <div id="idventas" style=display:none>
+                        comovamos
+                        </div>
+                        <div id="idreporte" style=display:none>
+                        que pex
+                        </div>
+                        <div id="idcliente" style=display:none>
+                                <h1>Clientes</h1>
+                                <hr>
+                            <table id="tablecliente">
+                            <thead>
+                                <th>Codigo</th>
+                                <th>Nombres</th>
+                                <th>APellidos</th>
+                                <th>DNI</th>
+                                <th>Accion</th>
+                            </thead>
+                            <tr>
+                                <td>C001</td>
+                                <td>David</td>
+                                <td>Reyna</td>
+                                <td>33261202</td>
+                                <td><i class="fas fa-user-plus"></i></td>
+                            </tr>
+                            <tr>
+                                    <td>C002</td>
+                                    <td>Keyla</td>
+                                    <td>De la Cruz</td>
+                                    <td>38434838</td>
+                                    <td><i class="fas fa-user-plus"></i></td>
+                                </tr>
+                                <tr>
+                                        <td>C003</td>
+                                        <td>Rolando</td>
+                                        <td>Jimanez</td>
+                                        <td>43493473</td>
+                                        <td><i class="fas fa-user-plus"></i></td>
+                                    </tr>
+                                    <tr>
+                                            <td>C004</td>
+                                            <td>Lucas</td>
+                                            <td>Ayala</td>
+                                            <td>43942934</td>
+                                            <td><i class="fas fa-user-plus"></i></td>
+                                        </tr>
+                        </table>
+                        </div>
+                        <div id="idproducto" style=display:none>
+                        sap
+                        </div>
+    </div>
+            
+    <script src="Script.js"></script>
+</body>
+</html>

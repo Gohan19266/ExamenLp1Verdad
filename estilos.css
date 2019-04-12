@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+@font-face{
+    font-family: "Fondo1";
+    url:("")
+}
+#principaldiv{
+    height: 500px;
+    width: 700px;
+    margin: 0;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+ height: 150px;
+ width: 700px;
+ background-color: bisque;
+}
+#imagen2{
+    float: left;
+}
+#divtitle{
+    height: 150px;
+    width: 700px;
+}
+#onediv{
+    height: 100px;
+    width: 1000px;
+}
+body{
+    background-size:1960px; 
+    padding: 100px;
+}
+#oneaside{
+    height: 80px;
+    width: 700px;
+    background-color: aqua;
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+    padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+   background-color: deepskyblue;
+}
+li{
+   list-style-type: none;
+   display: inline;
+    background-color: deepskyblue;
+}
+a{
+    text-decoration: none;
+    background-color: deepskyblue;
+    padding: 1px 43px 1px 43px;
+    color: black;
+}
+a:hover{
+    background-color: rgb(35, 107, 167);
+}
+table,td {
+	border: 1px solid black;
+}
+table,td {
+    border: 1px solid rgb(83, 81, 81);
+    border-collapse: collapse;
+}
+#h1div{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+}
+#tablecliente{
+    margin: auto;
+    padding-top: 220px;
+}
+th:nth-child(even) {
+    background-color:white;
+}
+th:nth-child(odd) {
+    background-color:white;
+}
+tr:nth-child(odd) {
+    background-color:rosybrown;
+}
+tr:nth-child(even) {
+    background-color:#fbfbfb;
+}
